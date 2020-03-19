@@ -5,6 +5,26 @@ echo "\e[92m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
 echo "\e[92m| ___\e[93mTime\e[92m_____:\e[93m".date('[d-m-Y] [H:i:s]')."\e[92m_____|\n";
 echo "\e[92m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
 
+login:
+echo "\e[92m╔══════════════════════════════════╗\n";
+$pass = ( '║ User Login : ' );
+$user = trim(fgets(STDIN));
+echo "\033[0m";
+if($user == "pakyu")
+{
+		system('clear');
+		goto ulang;
+}
+else
+{
+		echo "\e[91m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
+	        echo "\e[92m[🚫]       \e[91m⚠️WARNING⚠️           \e[92m [🚫]\n";
+		echo "\e[92m[🚫]    \e[91mSEGERA MINTA IZIN       \e[92m [🚫]\n";
+		echo "\e[91m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
+goto login;
+}
+	return rtrim( $input, "\n" );
+
 ulang:
 echo "\n";
 echo "\e[92m               |Hi Bro|             \n";
