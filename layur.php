@@ -73,7 +73,7 @@ echo "\e[90m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
         echo color("white","+] Your access token : ".$token."\n\n");
         save("token.txt",$token);
 
-        echo "\n[92m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬|\e[93AUTO REDEEM VOUCHER\e[92m|▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
+        echo "\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬|REDEEM VOUCHER|▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
         echo "\n".color("white","🔐] Claim voc GORIDE 8K");
         echo "\n".color("yellow","⏳] Please wait");
         for($a=1;$a<=3;$a++){
