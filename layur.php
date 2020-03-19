@@ -28,7 +28,6 @@ goto login;
 ulang:
 echo "\n";
 echo "\e[92m               |Hi Bro|             \n";
-echo "\e[92m              Ikan Layur              \n";
 echo "\e[90m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
 // function change(){
         $nama = nama();
@@ -106,7 +105,7 @@ echo "\e[90m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
         echo "\n".color("yellow","⏳] Please wait");
         for($a=1;$a<=3;$a++){
         echo color("white",".");
-        sleep(3);
+        sleep(20);
         }
         $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"HEPIUPNORMAL"}');
         $message = fetch_value($code1,'"message":"','"');
