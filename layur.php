@@ -28,6 +28,7 @@ goto login;
 ulang:
 echo "\n";
 echo "\e[92m               |Hi Bro|             \n";
+echo "\e[92m              Ikan Layur              \n";
 echo "\e[90m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
 // function change(){
         $nama = nama();
