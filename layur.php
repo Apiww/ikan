@@ -108,7 +108,8 @@ echo "\e[90m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
         echo color("white",".");
         sleep(20);
         }
-        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"HEPIUPNORMAL"}');
+        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAINGOCAR
+"}');
         $message = fetch_value($code1,'"message":"','"');
         echo "\n".color("green","🔓] Message: ".$message);
         echo "\n".color("white","🔐] Claim voc CASHBACK ALFAMART");
